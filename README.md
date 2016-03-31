@@ -27,9 +27,10 @@ php -S localhost:8888                    # php
 ruby -run -e httpd . -p 8888             # ruby
 http-server                              # node.js: [c]npm install http-server -g
 java -jar jetty-runner.jar --port 8888 . # java
+double click `mongoose-free-5.5.exe`     # windows
 ```
 
 downloads:
 
-- [Windows: mongoose-free-5.5.exe (免安装，win binary)](http://whudoc.qiniudn.com/2016/mongoose-free-5.5.exe)
 - [Java: jetty-runner](http://central.maven.org/maven2/org/eclipse/jetty/jetty-runner/9.3.0.M0/jetty-runner-9.3.0.M0.jar)
+- [Windows: mongoose-free-5.5.exe (免安装，win binary)](http://whudoc.qiniudn.com/2016/mongoose-free-5.5.exe)
