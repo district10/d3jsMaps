@@ -6,8 +6,8 @@ Learning d3.js Mapping
 I prefer local js file (the network sucks in china.), so...
 
 ```bash
+perl -pi -e "s:http\://d3js\.org/d3\.v3\.min\.js:../d3.min.js:" **/*.html
 perl -pi -e "s:http\://d3js\.org/topojson\.v1\.min\.js:../topojson.v1.min.js:" **/*.html
-perl -pi -e "s:http\://d3js\.org/d3\.v3\.min\.js:d3.min.js:" **/*.html
 rm **/*.bak
 ```
 
@@ -34,3 +34,7 @@ downloads:
 
 - [Java: jetty-runner](http://central.maven.org/maven2/org/eclipse/jetty/jetty-runner/9.3.0.M0/jetty-runner-9.3.0.M0.jar)
 - [Windows: mongoose-free-5.5.exe (免安装，win binary)](http://whudoc.qiniudn.com/2016/mongoose-free-5.5.exe)
+
+## Datasets
+
+- shapefile: [Download data by country | DIVA-GIS](http://www.diva-gis.org/gdata)
